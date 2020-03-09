@@ -69,17 +69,10 @@ inputs:
     description: User agent
     required: false
 
-#outputs:
-#  result:
-#    description: action result
-
 branding:
-  # https://feathericons.com/
-  icon: 'package'
+  icon: 'link'
   color: 'orange'
 
 runs:
   using: node12
   main: lib/main.js
-#  post: lib/post.js
-#  post-if: 'success()'
